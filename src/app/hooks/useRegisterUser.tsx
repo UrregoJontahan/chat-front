@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { createUser } from "@/service/userService";
+import { createUser } from "@/service/createUserService";
 import { useUserContext } from "../context/UserContext";
 
 export const useRegisterUser = () => {
